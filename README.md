@@ -1,19 +1,41 @@
-# Project Repository
+# Driply
 
-This repository will be used for team projects.
+## Description and Product Vision Statement
 
-Several sets of instructions are included in this repository. They should each be treated as separate assignments with their own due dates and sets of requirements.
+**To connect fashion enthusiast and promote greater accessibility of fashion trends and outfits.**
 
-1. See the [App Map & Wireframes](instructions-0a-app-map-wireframes.md) and [Prototyping](./instructions-0b-prototyping.md) instructions for the requirements of the initial user experience design of the app.
+Driply is a fashion social networking app  where users can share their outfits as well as find inspirations and new stores. This application and the community will be dedicated entirely to budget fashion and making fashion and trends as accessible as apossible for everyone. Users can share and view outfits with accompanying information like price range and source. Liking, commenting, and chatting will be some functionalities to increase interactivity between users. Users also can personalize their feed by following other users as well as bookmarking particularly interesting posts.
 
-1. Delete the contents of this file and replace with the contents of a proper README.md, as described in the [project setup instructions](./instructions-0c-project-setup.md)
+## The Team
 
-1. See the [Sprint Planning instructions](instructions-0d-sprint-planning.md) for the requirements of Sprint Planning for each Sprint.
+[Brandon Chen](https://github.com/b-chen00)
 
-1. See the [Front-End Development instructions](./instructions-1-front-end.md) for the requirements of the initial Front-End Development.
+[Darren Le](https://github.com/DarrenLe20)
 
-1. See the [Back-End Development instructions](./instructions-2-back-end.md) for the requirements of the initial Back-End Development.
+[Emmanuel Soto Ruiz](https://github.com/MannySotoRuiz)
 
-1. See the [Database Integration instructions](./instructions-3-database.md) for the requirements of integrating a database into the back-end.
+[Kevin Park](https://github.com/kevincwpark)
 
-1. See the [Deployment instructions](./instructions-4-deployment.md) for the requirements of deploying an app.
+[Amaan Khwaja](https://github.com/Amaanmkhwaja)
+
+## History
+
+### Initial Idea
+
+- Many people such as high school and college students often are interested in fashion. They are looking for new fashion and styles to experiment with but often find the most popular options seen on influencers and social networks are out of my price ranges. As such, there is a need for a social networking app entirely dedicated to budget fashion where users can find and share their outfits/inspirations. Fashion and trends should be accessible for everyone especially students and others who might not have the budget for designer brands.
+
+- While most social networking applications with a photo-posting function can do implement this idea to an extend, we want to build a community specialized in and dedicated to making fashion and trends as accessible as possible for everyone, especially students and others who might not have the budget for designer brands.
+
+### How to contribute
+
+- Refer to our contribution guidelines [here](./CONTRIBUTING.md)
+
+## Instructions for Building and Testing
+
+(update with that information once the project reaches that stage)
+
+## Additional Documents
+
+[Figma Site Map](https://www.figma.com/file/GDSuo2aF4WtsP4yC0udytx/Driply-Site-Map?node-id=0%3A1&t=xS0gTKp5Jl3fxWuG-1)
+
+[Figma Wireframe and Prototype](https://www.figma.com/file/K1GxXaFQa89F1rCprwuhIf/Driply?node-id=0%3A1&t=r2VuqVoeON8Y47Tl-0)

@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bottomNavBar {
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 2px solid gray;
+  background-color: white;
+}
+.bottomNavBar-Dark {
+  /* background-color: #000000; */
+  background-color:#121212;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid gray;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+.header-Dark {
+  /* background-color: #000000; */
+  background-color:#121212;
+  color: white;
+}
+
+.header-show {
+  top: 0px;
+}
+.header-hide {
+  top: -6rem;
+}
+
+.logo {
+  margin-left: 10px;
+  width: 60px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+.bm-burger-bars-dark {
+  background-color: white;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #ecf2f4;
+  /* padding: 2.5em 1.5em 0; */
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+.postContainer {
+  /* border: 2px solid red; */
+  padding-bottom: 150px;
+}
+
+.darkTheme {
+  /* background-color: #000000; */
+  background-color:#121212;
+  color: white;
+}
+
+.post {
+  padding-top: 5px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.postHeader {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.postHeaderDetails {
+  height: 100%;
+  flex: 1 1 0%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 6px;
+}
+.postHeaderDetails img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.postHeaderDetails p {
+  font-weight: 500;
+}
+.postCost {
+  font-weight: 500;
+  padding-right: 6px;
+}
+
+.postBody {
+  margin-top: 5px;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.postBody img {
+  width: 100%;
+  max-height: 450px;
+}
+.postBookmarkIcon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.postDetails {
+  display: flex;
+  width: auto;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: 5px;
+  height: 70px;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+.postDetails div{
+  display: flex;
+  gap: 1rem;
+  color: white;
+  font-size: large;
+}
+
+.loadingUserImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #bdc3c7;
+}
+
+.loadingPostBody {
+  margin-top: 5px;
+  width: 100%;
+  height: 350px;
+  background-color: #bdc3c7;
+}
